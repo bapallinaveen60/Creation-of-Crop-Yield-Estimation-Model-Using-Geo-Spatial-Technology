@@ -96,6 +96,19 @@ desktop.ini
 *.xml.bak
 *~
 
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
 # Exclude local large data directories but keep folder structure and placeholders
 data/raw/landsat8/*.TIF
 data/raw/landsat8/*.tif
