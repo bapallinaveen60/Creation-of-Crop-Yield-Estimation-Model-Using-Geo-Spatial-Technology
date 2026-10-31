@@ -1,0 +1,31 @@
+{
+  "name": "Rice_Yield",
+  "alias": "RiceYieldEstimator",
+  "description": "Estimates rice crop yield (kg/ha) from single-date mature NDVI raster based on exponential regression modeling (y = 1841.6 * exp(2.5262 * NDVI)).",
+  "version": "1.0",
+  "author": "Baipilli Naveen & Team (AU College of Engineering)",
+  "parameters": [
+    {
+      "name": "input_crop_ndvi",
+      "displayName": "Input Crop NDVI Raster",
+      "type": "GPRasterLayer",
+      "direction": "Input",
+      "parameterType": "Required"
+    },
+    {
+      "name": "output_yield_raster",
+      "displayName": "Output Crop Yield Raster (kg/ha)",
+      "type": "DERasterDataset",
+      "direction": "Output",
+      "parameterType": "Required"
+    }
+  ],
+  "model_formula": {
+    "equation": "Yield = 1841.6 * exp(2.5262 * NDVI)",
+    "base_coefficient_a": 1841.6,
+    "exponent_coefficient_b": 2.5262,
+    "target_crop": "Paddy (Rice)",
+    "season": "Rabi",
+    "r_squared": 0.9922
+  }
+}
