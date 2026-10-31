@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this software or methodology, please cite it as below."
+title: "Creation of Crop Yield Estimation Model Using Geo-Spatial Technology"
+authors:
+  - family-names: "Baipilli"
+    given-names: "Naveen"
+  - family-names: "Avupati"
+    given-names: "Ajay"
+  - family-names: "Marrapu"
+    given-names: "Sai Meghana"
+  - family-names: "Pothuraju"
+    given-names: "Pooja"
+  - family-names: "Devu"
+    given-names: "Phanindra Sai Kumar"
+doi: "10.5281/zenodo.23837521"
+date-released: 2023-05-01
+version: 1.0.0
+repository-code: "https://github.com/bapallinaveen60/Creation-of-Crop-Yield-Estimation-Model-Using-Geo-Spatial-Technology"
+keywords:
+  - "crop yield estimation"
+  - "remote sensing"
+  - "GIS"
+  - "NDVI"
+  - "Landsat 8"
+  - "ArcGIS"
+  - "machine learning"
+  - "support vector machine"
+  - "paddy"
+  - "Godavari delta"
+license: "MIT"
+type: "report"
+institution:
+  name: "Department of Geo-Engineering & RDT, Andhra University College of Engineering (A)"
+  city: "Visakhapatnam"
+  country: "IN"

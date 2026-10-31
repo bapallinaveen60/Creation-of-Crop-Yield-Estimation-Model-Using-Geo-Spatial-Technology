@@ -1,5 +1,6 @@
 # Creation of Crop Yield Estimation Model Using Geo-Spatial Technology
 
+[![DOI](https://zenodo.org/badge/1440865875.svg)](https://doi.org/10.5281/zenodo.23837521)
 [![Python Version](https://img.shields.io/badge/python-3.10%20%7C%203.11-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/GIS-ArcGIS%20%7C%20ArcMap%2010.8%20%7C%20Rasterio-orange.svg)]()
@@ -201,42 +202,28 @@ jupyter lab notebooks/crop_yield_estimation_walkthrough.ipynb
 
 ---
 
-## 🔗 Pushing to Your GitHub Repository
+## 🔗 Repository & Permanent DOI
 
-When you create your repository on GitHub (e.g. `https://github.com/<username>/<repo-name>.git`), link and push your workspace with:
-
-```bash
-# Set your remote origin
-git remote add origin https://github.com/<your-username>/<your-repo-name>.git
-
-# Verify remote
-git remote -v
-
-# Stage all files
-git add .
-
-# Commit
-git commit -m "Initial commit: Structured B.Tech thesis repository for crop yield estimation model"
-
-# Set default branch to main and push
-git branch -M main
-git push -u origin main
-```
+- **GitHub Repository**: [https://github.com/bapallinaveen60/Creation-of-Crop-Yield-Estimation-Model-Using-Geo-Spatial-Technology](https://github.com/bapallinaveen60/Creation-of-Crop-Yield-Estimation-Model-Using-Geo-Spatial-Technology)
+- **Permanent Zenodo DOI**: [10.5281/zenodo.23837521](https://doi.org/10.5281/zenodo.23837521)
+- **Concept DOI (all versions)**: [10.5281/zenodo.23837522](https://doi.org/10.5281/zenodo.23837522)
 
 ---
 
 ## 📜 Citation
 
-If you use this work or methodology in your academic research, please cite:
+If you use this work, methodology, or code in your academic research, please cite:
 
 ```bibtex
-@mastersthesis{naveen2023cropyield,
+@misc{naveen2023cropyield,
   title     = {Creation of Crop Yield Estimation Model Using Geo-Spatial Technology},
   author    = {Baipilli Naveen and Avupati Ajay and Marrapu Sai Meghana and Pothuraju Pooja and Devu Phanindra Sai Kumar},
-  school    = {Department of Geo-Engineering & RDT, Andhra University College of Engineering (A)},
   year      = {2023},
+  school    = {Department of Geo-Engineering & RDT, Andhra University College of Engineering (A)},
   address   = {Visakhapatnam, Andhra Pradesh, India},
-  type      = {Bachelor of Technology Project Report}
+  howpublished = {Bachelor of Technology Project Report, Zenodo},
+  doi       = {10.5281/zenodo.23837521},
+  url       = {https://doi.org/10.5281/zenodo.23837521}
 }
 ```
 
